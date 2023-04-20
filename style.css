@@ -1,0 +1,82 @@
+.h {
+    /* Color de fondo */
+    background-color: white;
+    /* Ancho del componente */
+    width: 100%;
+}
+
+.h__nav{
+    width: 80%;
+    /* Centrar horizontalmente el nav dentro del header */
+    margin: 0 auto;
+    /* Alinear horizontalmente los elementos hijos */
+    display: flex;
+    /* Alinear verticalmente los elementos hijos */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h__ul{
+    /* Elimina los puntos de los li */
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.h__ul--li{
+    /* Agregar un espacio al lado de cada li */
+    /* margin-right: 20px; */
+}
+
+
+/* F7F0E8 */
+.sub{
+    background-color: #F7F0E8;
+    width:100%;
+    padding:1rem 0;
+    /* padding:1rem 0 1rem 2rem; */
+
+}
+
+.sub__article{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub__article--p{
+    /* Tamaño de la fuente o tipografia */
+    font-size: 1.25rem;
+    /* Seleccionar que tipografia quiero */
+    font-family: 'Quicksand', sans-serif;
+    width: 50%;  
+}
+
+.sub__div{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 50%;
+}
+
+.sub__div--p{
+
+}
+
+.sub__form{
+    display: flex;
+}
+
+.sub__form--input{
+    border: 0;
+    padding: .5rem 1rem;
+    /* border-radius: 3px 1rem 3px .5rem; */
+}
+
+.sub__form--button{
+    background-color: red;
+    border: 0;
+    /* color letre */
+    color: white;
+}
